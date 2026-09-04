@@ -1,0 +1,6 @@
+{
+  "name": "LM-Check: Legal Metrology AI Inspector",
+  "description": "Digital Legal Metrology compliance inspection platform automating packaged product OCR, structured declaration extraction, legal rule validation, visual evidence mapping, and report generation.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
