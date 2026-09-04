@@ -1,4 +1,4 @@
-# ⚖️ LegalMetrix AI
+⚖️ LegalMetrix AI
 
 ### 🚀 AI-Powered Legal Metrology Compliance Checking System
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 About The Project
+📌 About The Project
 
 **LegalMetrix AI** is an AI-assisted compliance inspection system designed to automate the first-level inspection of packaged commodities.
 
@@ -27,9 +27,9 @@ The platform also provides evidence, compliance summaries, inspection history, d
 
 ---
 
-## 🎯 Core Concept
+🎯 Core Concept
 
-```text
+text
 📸 SCAN
    ↓
 🔍 EXTRACT
@@ -47,11 +47,11 @@ The platform also provides evidence, compliance summaries, inspection history, d
 📄 REPORT
 
 
----
 
 
-```md
-# 🎯 Problem Statement
+
+
+🎯 Problem Statement
 
 Packaged commodities are widely sold through retail stores, supermarkets, wholesale markets, and e-commerce platforms across India.
 
@@ -69,7 +69,7 @@ These declarations may include:
 - 💵 Unit sale price where applicable
 - 📋 Other applicable declarations
 
-## 🚨 Existing Challenges
+🚨 Existing Challenges
 
 Manual inspection of packaged commodities creates several challenges:
 
@@ -85,13 +85,13 @@ Manual inspection of packaged commodities creates several challenges:
 
 Therefore, there is a need for a software system that can automatically analyze product packaging and assist enforcement personnel in identifying potential non-compliance.
 
----
 
-## 💡 Problem We Are Solving
+
+💡 Problem We Are Solving
 
 Traditional inspection:
 
-```text
+text
 📦 Product
    ↓
 👨‍💼 Manual Inspection
@@ -119,14 +119,11 @@ Traditional inspection:
    ↓
 🗄️ Inspection Repository
 
----
 
-# PART 3 — Proposed Solution
 
-```md
-# 💡 Proposed Solution
+💡 Proposed Solution
 
-**LegalMetrix AI** proposes an AI-assisted software platform for automated first-level compliance analysis of packaged commodities.
+LegalMetrix AI** proposes an AI-assisted software platform for automated first-level compliance analysis of packaged commodities.
 
 The system combines:
 
@@ -140,13 +137,12 @@ The system combines:
 - 📊 Analytics
 - 📄 Automated Reporting
 
----
 
 The inspector uploads an image of a packaged commodity.
 
 The system processes the image through multiple stages:
 
-```text
+
 📸 Product Image
        ↓
 🖼️ Image Preprocessing
@@ -171,75 +167,73 @@ The system processes the image through multiple stages:
        ↓
 🗄️ Database Storage
 
----
 
 
-```md
-# 🎯 Objectives
+
+
+🎯 Objectives
 
 The major objectives of LegalMetrix AI are:
 
-### 🤖 1. Automate Inspection
+ 🤖 1. Automate Inspection
 
 Reduce the manual effort involved in inspecting packaged commodity labels.
 
-### 🔍 2. Extract Information
+ 🔍 2. Extract Information
 
 Automatically extract text and declarations from product images.
 
-### 🧠 3. Structure Data
+ 🧠 3. Structure Data
 
 Convert raw OCR output into structured product information.
 
-### ⚖️ 4. Validate Compliance
+ ⚖️ 4. Validate Compliance
 
 Compare extracted information against applicable Legal Metrology requirements.
 
-### 🚨 5. Detect Potential Violations
+ 🚨 5. Detect Potential Violations
 
 Identify missing, incomplete, incorrectly formatted, or potentially non-compliant declarations.
 
-### 👁️ 6. Provide Evidence
+ 👁️ 6. Provide Evidence
 
 Show the image and relevant detected region associated with a potential violation.
 
-### 📊 7. Generate Compliance Summary
+ 📊 7. Generate Compliance Summary
 
 Provide an easy-to-understand compliance result.
 
-### 📄 8. Generate Digital Reports
+ 📄 8. Generate Digital Reports
 
 Automatically create inspection reports containing product information, violations, and evidence.
 
-### 🗄️ 9. Maintain Inspection History
+ 🗄️ 9. Maintain Inspection History
 
 Store previous inspections for future search and analysis.
 
-### 📈 10. Provide Analytics
+ 📈 10. Provide Analytics
 
 Provide dashboards for monitoring compliance trends and inspection activities.
 
-### 👨‍⚖️ 11. Support Human Review
+ 👨‍⚖️ 11. Support Human Review
 
 Allow authorized users to verify and correct uncertain AI-generated results.
-# ✨ Key Features
+ ✨ Key Features
 
-## 📸 Product Image Upload
+ 📸 Product Image Upload
 
 - Upload packaged commodity images
 - Support multiple images per inspection
 - Capture front, back, and side views
 - Store original images as inspection evidence
 
----
-
-## 🔍 OCR-Based Text Extraction
+  
+ 🔍 OCR-Based Text Extraction
 
 Extract text from packaging using OCR.
 
 Example:
 
-```text
 ABC FOODS PVT LTD
 
 MOONG DAL
@@ -254,14 +248,14 @@ Consumer Care:
 1800-123-4567
 
 
----
 
-```md
-# 🔄 System Workflow
+
+
+ 🔄 System Workflow
 
 The complete LegalMetrix AI workflow consists of the following stages:
 
-```text
+
                     👮 INSPECTOR
                          │
                          ▼
@@ -319,16 +313,15 @@ The complete LegalMetrix AI workflow consists of the following stages:
                   📈 DASHBOARD
 
 
----
 
-```md
-# 🤖 AI & OCR Module
+
+
+ 🤖 AI & OCR Module
 
 The AI layer is responsible for converting product images into machine-readable information.
 
-## 🔍 OCR Pipeline
+ 🔍 OCR Pipeline
 
-```text
 📸 Product Image
        ↓
 🖼️ Preprocessing
@@ -376,20 +369,18 @@ Value:
 }
 
 
----
 
-```md
-# ⚖️ Compliance Rule Engine
+⚖️ Compliance Rule Engine
 
 The Compliance Rule Engine is the core validation component of LegalMetrix AI.
 
 Its purpose is to compare extracted product declarations against applicable Legal Metrology requirements.
 
----
 
-## 🔄 Compliance Pipeline
 
-```text
+ 🔄 Compliance Pipeline
+
+
 📋 Structured Product Data
            ↓
       ⚖️ Rule Selection
@@ -415,19 +406,13 @@ Source
 Version
 
 
-
----
-# 🚨 Violation Detection & Evidence
+🚨 Violation Detection & Evidence
 
 Once the compliance engine completes its checks, failed validations are converted into potential violation records.
 
----
-
-## 🚨 Violation Structure
+ 🚨 Violation Structure
 
 A violation can contain:
-
-```text
 Violation ID
 Inspection ID
 Rule ID
@@ -441,18 +426,18 @@ Reviewer
 Timestamp
 
 
----
 
 
 
-```md
-# 📊 Dashboard
+
+
+ 📊 Dashboard
 
 The dashboard provides a centralized view of inspection activities.
 
-## 📈 Dashboard Metrics
+ 📈 Dashboard Metrics
 
-```text
+
 ┌─────────────────────────────────────────┐
 │       ⚖️ LEGAL METROLOGY DASHBOARD     │
 ├─────────────────────────────────────────┤
@@ -466,12 +451,10 @@ The dashboard provides a centralized view of inspection activities.
 └─────────────────────────────────────────┘
 
 
----
 
-```md
-# 🏗️ System Architecture
+ 🏗️ System Architecture
 
-```text
+
                     👮 USER
                       │
                       ▼
@@ -500,10 +483,10 @@ The dashboard provides a centralized view of inspection activities.
 ---
 
 
-```md
-# 📂 Project Structure
 
-```text
+📂 Project Structure
+
+
 LegalMetrix-AI/
 │
 ├── frontend/
@@ -552,26 +535,21 @@ LegalMetrix-AI/
 ├── README.md
 └── LICENSE
 
----
 
 
-```md
-# 🚀 Installation
 
-## 1️⃣ Clone the Repository
 
-```bash
+ 🚀 Installation
+
+ 1️⃣ Clone the Repository
+
+
 git clone https://github.com/ayansh-codes/LegalMetrix-AI.git
 cd LegalMetrix-AI
 
----
 
-# PART 14 — Current Status + Roadmap
-
-```md
-# 🚧 Current Development Status
-
-## ✅ Completed
+ 🚧 Current Development Status
+ ✅ Completed
 
 - 📸 Product image input
 - 🖼️ Image preprocessing
@@ -580,9 +558,8 @@ cd LegalMetrix-AI
 - 📋 Structured product information
 - 🧪 OCR testing on project dataset
 
----
 
-## 🔄 In Development
+ 🔄 In Development
 
 - ⚖️ Compliance Rule Engine
 - 📚 Rule Repository
@@ -594,11 +571,11 @@ cd LegalMetrix-AI
 - 📈 Dashboard
 - 👨‍⚖️ Human Review Workflow
 
----
 
-# 🗺️ Project Roadmap
 
-```text
+ 🗺️ Project Roadmap
+
+
 ✅ Phase 1 — Problem Analysis
         ↓
 ✅ Phase 2 — Dataset Preparation
@@ -625,27 +602,27 @@ cd LegalMetrix-AI
         ↓
 🚀 Phase 13 — Deployment
 
----
 
 
-```md
-# 🔮 Future Scope
+
+
+🔮 Future Scope
 
 LegalMetrix AI can be extended with several advanced capabilities.
 
-## 🌐 E-Commerce Compliance
+ 🌐 E-Commerce Compliance
 
 Analyze product listings from e-commerce platforms and compare online declarations with packaging information.
 
-## 🌍 Multi-Language Support
+ 🌍 Multi-Language Support
 
 Support packaging information written in multiple Indian languages.
 
-## 📱 Mobile Application
+ 📱 Mobile Application
 
 Allow field inspectors to capture product images directly using smartphones.
 
-## 🤖 Advanced Computer Vision
+ 🤖 Advanced Computer Vision
 
 Improve detection of:
 
@@ -655,12 +632,12 @@ Improve detection of:
 - Font size
 - Layout
 - Declaration placement
-
-## 🔄 Automated Rule Updates
+  
+ 🔄 Automated Rule Updates
 
 Introduce version-controlled updates from official regulatory sources.
 
-## 📍 Geographic Analytics
+ 📍 Geographic Analytics
 
 Analyze violations based on:
 
@@ -669,51 +646,50 @@ Analyze violations based on:
 - Market
 - Product category
 
-## 📈 Predictive Analytics
+ 📈 Predictive Analytics
 
 Use historical inspection data to identify product categories or patterns that may require increased inspection attention.
 
-## ☁️ Large-Scale Deployment
+ ☁️ Large-Scale Deployment
 
 Deploy the platform as a centralized cloud-based system for multiple enforcement offices.
 
----
 
-# 📚 Research & References
 
-## ⚖️ Government Sources
+ 📚 Research & References
 
-### Legal Metrology Act, 2009
+ ⚖️ Government Sources
+
+ Legal Metrology Act, 2009
 
 Department of Consumer Affairs, Government of India.
 
 https://consumeraffairs.gov.in/index.php/pages/legal-metrology-act
 
-### Legal Metrology (Packaged Commodities) Rules, 2011
+ Legal Metrology (Packaged Commodities) Rules, 2011
 
 Government of India.
 
 https://consumeraffairs.gov.in/public/upload/admin/cmsfiles/whatsnews/Book_on_Legal_Metrology_Packaged_Commodities_Rules%2C2011_with_all_amendments_whatsnews.pdf
 
----
 
-## 🔬 Research Papers
+ 🔬 Research Papers
 
-### 1. EAST: An Efficient and Accurate Scene Text Detector
+ 1. EAST: An Efficient and Accurate Scene Text Detector
 
 https://arxiv.org/abs/1704.03155
 
-### 2. An End-to-End Trainable Neural Network for Image-Based Sequence Recognition
+ 2. An End-to-End Trainable Neural Network for Image-Based Sequence Recognition
 
 https://arxiv.org/abs/1507.05717
 
-### 3. Recent Advancements in Machine Vision Methods for Product Code Recognition
+ 3. Recent Advancements in Machine Vision Methods for Product Code Recognition
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC10521108/
 
----
 
-# ⚠️ Disclaimer
+
+ ⚠️ Disclaimer
 
 LegalMetrix AI is designed as an **AI-assisted inspection and decision-support system**.
 
@@ -733,13 +709,13 @@ The compliance rule database should be regularly reviewed and updated using auth
 
 ---
 
-# 🤝 Contribution
+ 🤝 Contribution
 
 Contributions, suggestions, and improvements are welcome.
 
-### Contribution Workflow
+ Contribution Workflow
 
-```text
+text
 🍴 Fork Repository
       ↓
 🌿 Create Branch
